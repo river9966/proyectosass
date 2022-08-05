@@ -1,0 +1,68 @@
+.footer {
+
+    background-color: $colorfondofooter;
+    
+    .footer__info {
+        padding-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .seccion__institucional {
+        list-style: none;
+        display: grid;
+        gap: 8px;
+    }
+
+    .seccion__ayuda {
+        list-style: none;
+        display: grid;
+        gap: 8px;
+    }
+
+    .seccion__seguinos {
+        list-style: none;
+        display: grid;
+        gap: 8px;
+
+        .icono__seguinos {
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+    
+}
+
+
+.medios__pago {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $colorfondofooter;
+    
+    
+    .titulo__pago {
+        width: 33%;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .icono__pago {
+        width: 67%;
+    }
+
+    .logo__pagos {
+        width: 50px;
+        height: 30px;
+    }
+}
+
+
+.derechos__reservados {
+    text-align: center;
+    background-color: $colorfondofooter;
+    padding-top: 10px;
+}

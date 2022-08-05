@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    height: 100px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    width: 30%;
+    height: auto;
+    justify-content: center;
+    &__img {
+
+        width: 250px;
+        height: 100px;
+    }
+}
+
+.menu__barra {
+    width: 70%;
+
+    .nav__bar {
+        justify-content: space-evenly;
+        display: flex;
+        width: 100%;
+        font-family: $tipografia;
+    }
+}
+
+.stilo__enlace {
+    color: black !important;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.stilo__enlace:hover{
+    
+    background-color: gray;
+
+}
+
